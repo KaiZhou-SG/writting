@@ -1,0 +1,46 @@
+Async, Await and the UI problem
+
+0 You can't use the UI thread to do much work, you need to use a new thread
+ to do all of the heavy computation and leave the UI thread free to get on
+ with what it is supposed to do - deal with user events.
+1 However, the computation thread usually has to provide evidence that it
+ has done something and this means that it has to interact with the UI com-
+ ponent.
+2 UI components aren't threadsafe - hence the rule that only the thread that
+ created a component can access it. The correct way of updating the UI com-
+ ponent is allow the worker thread to run a delegate that does the update u-
+ sing data from provided by the worker thread(but it results in messy codes).
+3 Here comes the Visual Studio Async CTP, with it comes async, await
+4 Using async and await:
+  4.1 add async to a function which again contains a await function
+  4.2 the await function returns either Task or Task<T>
+  4.3 the codes after the await function can then make use of the returned 
+ value of T
+  4.4 the await function in-fact created a new thread to do its work, and
+ it returns control to the UI thread, and does this work with the new thread,
+ so that the UI keeps responsive
+5 The CTP version of the Task static object has a Run method that will take a
+ delegate or a lambada expression and run it using thread from the threadpool.
+6 To avoid a naming confusion, the new static Task is called TaskEx.
+7 The await and async is here to hide the details of what is going on behind
+ the scenes - but you should still have a rough idea of what is happening. 
+  >>> the await causes the UI thread to return to the calling code(the 
+ Dispatcher in this case)immediately so that another event is picked up by
+ the Dispatcher and executed, when the Task finishes, the await causes
+ the UI thread to pickup where it left off(the next line of the await function)
+ and continues.
+  >>> if you think deeper, you'll find that when the await causes the UI
+ thread to return to its
+ caller(the Dispatcher), the state of the context is saved and when the 
+ Task finishes, the await causes the UI thread to restore the saved state
+ and continue executing.
+  >> In that way, the codes look like executing from above to down in sequence.
+8 Multiple awaits
+  8.1 The key factor is that the event handler can update the UI each time it
+ is restarted so we could use an approach where the work is broken into chunks
+ which return to the event handler for an update(in plain words, it is that
+ one await causes the thread to go out and come in to the UI thread(namely 
+ restart the UI thread), so if we have more than one await, the UI will be
+ updated more frequently).
+ 
+ 
