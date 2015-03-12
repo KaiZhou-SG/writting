@@ -1,0 +1,13 @@
+To all developers who strive for continuous self-improvement
+Who are not satisfied with good enough
+Who always seek every opportunity to expand their horizons
+ and explore the unknown
+Whose thirst for knowledge is never fully quenched
+Who believe that software development means more than just writing code
+Who know that failure is not the end, but merely a step in the journey
+Who struggle at times, and sometimes fall, but always get back up again
+Who have the will and determination to seek the harder path in life
+And, most importantly, who are willing to help others along the way
+
+-- preface of the book: Soft Skills, a life mannual of software engineers
+
