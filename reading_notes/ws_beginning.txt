@@ -1,0 +1,55 @@
+1 What is a network protocol?
+  1.1 In order for two computers to talk to each other, they must be speaking
+ the same language, the network protocol is the language computer talks to ea-
+ ch other.
+  1.2 Network protocol is independent of OS, network card, or application you
+ are using.
+  1.3 The OSI(Open Systems Interconnection) Reference Model defines seven laye-
+ rs of networking protocols.
+2 what is a web server?
+  2.1 A web server is an information technology that processes requests via net-
+ work protocols.
+  2.2 The first web server is developed by Tim Berners-Lee in 1989 to ease the
+ exchange of information between scientists by using a hypertext system, it in-
+ cludes a web server and a client:
+    a A browser called WorldWideWeb(the client)
+    b CERN httpd
+3 Common fetures of a web server
+  3.1 Virtual hosting, to serve many web sites using one IP address
+  3.2 Large file support, to be able to serve files whose size is greater than
+ 2GB on a 32bit OS
+  3.3 Bandwidth throttling, to limit the speed of responses in order to not sa-
+ turate the network and to be able to serve more clients
+  3.4 Server-side scripting, to generate dynamic web pages, still keeping web 
+ server and website implementation separate from each other.
+4 Path translation
+  4.1 Web servers are able to map the path component of a URL into:
+    a A local file system resource(for static requests)
+    b An internal or external program name(for dynamic requests)
+  4.2 For a static request the URL path specified by the client is relative to
+ the web server's root directory.
+5 Kernel-mode and user-mode web servers
+  5.1 A web server can be either implemented into the OS kernel, or in user sp-
+ ace(like other regular applications).
+  5.2 An in-kernel web server(like IIS or TUX) will usually work faster, becau-
+ se, as part of the system, it can directly use all the hardware resources it
+ needs, such as non-paged memory, CPU time-slices, network adapters, or buffers 
+  5.3 Web servers run in user-mode have to ask the system for permission to use
+ more memory or more CPU resources. Not only do these requests to the kernel t-
+ ake time, but they are not always satisfied because the system reserves resou-
+ rces for its own usage and has the responsibility to share hardware resources
+ with all the other running applications. Executing in user mode can also mean
+ useless buffer copies which are another handicap for user-mode web servers.
+6 Load limits
+  6.1 A web server(program) has defined load limits, because it can handle only
+ limited number of concurrent client connections(usually between 2 and 80,000,
+ by default between 500 and 1,000) per IP address(and TCP port) and it can ser-
+ ve a certain maximum number of requests per second depending on:
+  * its own settings
+  * the HTTP request type
+  * whether the content is static or dynamic
+  * wheter the content is cached, and
+  * the hardware and software limitations of the OS of the computer on which 
+ the web server runs.
+  When a web server is near to or over its limit, it becomes unresponsive.
+
