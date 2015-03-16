@@ -52,4 +52,19 @@
   * the hardware and software limitations of the OS of the computer on which 
  the web server runs.
   When a web server is near to or over its limit, it becomes unresponsive.
-
+7 Hostnames and DNS
+  7.1 In order to connect to a server, the client will first have to resolve
+ the servername to an IP address - the location on the internet where the serv-
+ er resides. Thus, in order for your web server to be reachable, it is necessa-
+ ry that the servername be in DNS.
+  7.2 More than one hostname may point to the same IP address, and more than
+ one IP address can be attached to the same physical server. Thus, you can
+ run more than one web site on the same physical server, using a feature called
+ virtual hosts.
+  7.3 If you are using a server that is not Internet-accessible, you can put
+ host names in your hosts file in order to do local resolution, you might want
+ to put a record in your hosts file to map a request for www.example.com to 
+ your local system, for testing purposes. The entry would look like:
+ 127.0.0.1 www.example.com
+  A host file will probably be located at /etc/hosts or C:\Windows\system32\etc\hosts
+8 
