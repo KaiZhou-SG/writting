@@ -1,0 +1,22 @@
+These are some serialization rules I discovered while developing web service an application:
+
+1 Need to specify the content type when posting some data to the server, e.g: 
+ Content-Type:application/json;charset=utf-8
+ otherwise, the serialization will fail, and the object will be null
+2 Only public members are serializable, serialization does not look to the constructors of
+ an object, but looks through the public members, and maps the json properties to them one
+ by one, case insenstivly.
+3 No need to specify the object name in the json data, but need to specify property names:
+ {
+  "msgHead"
+  {
+    "type":"emergency",
+    "length":"100"
+  },
+  "msgBody"
+  {
+    "content":"urgent"
+  }
+}
+ properties need to be separated by ",", but the last property won't have a "," 
+4 To be continued...

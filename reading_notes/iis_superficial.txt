@@ -1,0 +1,28 @@
+1 Web server:
+ A Microsoft Server is a unified web platform that integrates IIS, ASP.NET, WCF and   
+ Windows SharePoint Services.
+2 IIS lets you share information with users on the Internet, an intranet, or an
+ extranet.
+3 In IIS7, you create sites, applications, and virtual directories to share information
+ with users. Sites, applications, and virtual directories work together in a hierarchical
+ relationship as the basic building blocks for hosting online content.
+4 Sites:
+ A site is a container for Web applications, and you can access it through one or more
+ unique bindings. A web site binding is the combination of an IP address, a port, and
+ the optional host headers on which HTTP.sys listens for requests made to that web site.
+5 Applications:
+ An application is a software program that runs in an application pool and that delivers
+ Web content, usually in HTML, to users over the HTTP protocol. When you create an 
+ application, the application's name becomes part of the site's URL that users can
+ request from a Web browser.
+6 Virtual directories:
+ A virtual directory is a directory name that you specify in IIS, and maps to a physical
+ directory on a local or remote server. The directory name then becomes part of the 
+ application's URL, and users can request the URL from a Web browser to access content
+ in the physical directory, such as a web page or a list of additional directories and
+ files.
+ In IIS 7, each application must have a virtual directory, which is named the root
+ directory, and which maps the application to the physical directory that contains
+ the application's content.
+ An application can have more than one virtual directory. 
+
