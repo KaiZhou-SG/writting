@@ -1,0 +1,33 @@
+url:
+http://www.tutorialspoint.com/uml/uml_interaction_diagram.htm
+
+1 what's the dynamic aspect of a system:
+  1) dynamic aspect can be defined as the snap shot of the running system at a
+ particular moment.
+  2) the sequence diagram captures the time sequence of message flow from one
+ object to another
+  3) the collaboration diagram describes the organization of objects in a syst-
+ em taking part in the message flow
+
+2 the following things are to be identified clearly before drawing the interac-
+ tion diagram:
+  1) objects taking part in the interaction
+  2) message flows among the objects
+  3) the sequence in which the messages are flowing
+  4) object organization
+
+3 the sequence diagram:
+  1) the message flow is a method call of an object
+  2) no objects organization is described
+
+4 the collaboration diagram
+  1) shows the objects organization
+  2) uses numbers to indicates how the methods are called one after another
+
+5 where to use interaction diagrams
+  1) sequence diagrams are used to capture the order of messages flowing from
+ one object to another. And the collaboration diagrams are used to describe the
+ structural organization of the objects taking part in the interaction.
+  2) Message flow means the sequence of control flow from one object to another
+ and structural organization means the visual organization of the elements in a
+ system.  

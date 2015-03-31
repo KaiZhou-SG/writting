@@ -1,3 +1,20 @@
+ pre-reading notes:
+1 the topic is soft skills of a software engineer, it's like a life manual, on
+ how to live as a software engineer?
+2 what do I think about this topic?
+  It's the most important thing I need to think about, it's more important
+ than anything else. Without knowing how to live as a software engineer, any
+ achievement in my career is baseless. Again, it's the most important thing I
+ need to think about seriously.
+3 what do I already konw about this topic?
+  (1) software engineering still has its market, and software engineers are
+ still in demand, the salary is also not bad
+  (2) the technology is developing very fast, it's impossible to learn everyth-
+ ing shiny, the most important thing is to discover the fundamental of compute-
+ r science, and apply the basic concepts to my work.
+  (3) it's not a relax job, and it has a few different levels. Different ages
+ will suit to different levels. 
+
 >>> Why this book is unlike any book you've ever read
 1 When I say a good software developer, I'm not talking about being good at wr-
  iting codes, solving problems, or hacking out unit tests. Instead, I'm talk-
