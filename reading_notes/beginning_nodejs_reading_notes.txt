@@ -156,4 +156,17 @@ Chapter 2: Understanding Node.js
     c) joyent/node(evented I/O for v8 JavaScript)
 
 9 Revealing Module Pattern
-  9.1 
+  9.1 At the heart of the revealing module pattern is JavaScript's support for
+    closures and ability to return arbitrary(function+data) object literals.
+
+10 Understanding 'this'
+  10.1 The simplest way to think of 'this' is that it refers to the calling
+    context. The calling context is the prefex used to call a function.
+  10.2 
+  
+11 Understanding prototype
+  11.1
+
+>>> Core Node.js
+
+1   
