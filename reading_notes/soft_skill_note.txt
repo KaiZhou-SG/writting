@@ -1,1 +1,102 @@
-Z
+ pre-reading notes:
+1 the topic is soft skills of a software engineer, it's like a life manual, on
+ how to live as a software engineer?
+2 what do I think about this topic?
+  It's the most important thing I need to think about, it's more important
+ than anything else. Without knowing how to live as a software engineer, any
+ achievement in my career is baseless. Again, it's the most important thing I
+ need to think about seriously.
+3 what do I already konw about this topic?
+  (1) software engineering still has its market, and software engineers are
+ still in demand, the salary is also not bad
+  (2) the technology is developing very fast, it's impossible to learn everyth-
+ ing shiny, the most important thing is to discover the fundamental of compute-
+ r science, and apply the basic concepts to my work.
+  (3) it's not a relax job, and it has a few different levels. Different ages
+ will suit to different levels. 
+
+>>> Why this book is unlike any book you've ever read
+1 When I say a good software developer, I'm not talking about being good at wr-
+ iting codes, solving problems, or hacking out unit tests. Instead, I'm talk-
+ ing about being a good software developer in terms of managing your career,
+ reaching your goals, and enjoying your life.
+2 This book is about you, right, your career, your life, your body, and your
+ mind, and--if you believe there is such a thing--your soul.
+3 I embrace a holistic approach to software development. This means that I
+ think that if you want to be a better software developer--a better anything,
+ really--you need to focus on the entire person, not just one or two areas of
+ your life.
+4 The books are categorized into 4 topics:
+ a career
+ b mind
+ c body
+ d spirit
+
+>>> Section 1 Career
+
+1 The biggest mistake that you can make is to believe that you are working for
+ somebody else. Job security is gone. The driving force of a career must come
+ from the individual. Remember: Jobs are owned by the company, you own your c-
+ areer! by Earl Nightingale
+2 Few software developers actively manage their careers. But the most success-
+ ful developers don't arive at success by chance. They have a goal in mind and
+ they create a solid and well-thought-out plan to achieve that goal. If you
+ really want to succeed in the competitive world of software development, you
+ need to do more than just polish your resume and take whatever job you happen
+ to get. You need to think things through and decide what actions you should 
+ take, when you should take them, and how you should go forward with them.
+3 Getting started with a "BANG!": Don't do what everyone else does.
+ * Which firework do you want your software development career to be like? The
+ one that explodes high in the air with a loud bang, or the one that reaches
+ altitude and then quietly falls back to the ground?
+4 Having a business mindset
+  4.1 Most software developers starting out in their careers make a few huge
+ mistakes. The biggest of those mistakes, by far, is not treating their softwa-
+ re development career as a business.
+  4.2 When you set out into the world to write code for a living, you're no
+ different than the blacksmith of old times setting up shop i a medieval town.
+ Times may have changed, and most of us work for a company, but our skills and
+ our trade belong to us and we can always choose to set up shop somewhere else.
+  4.3 This kind of mindset is crucial to managing your career, because when you
+ start to think of yourself as a business, you start to make good business dec-
+ isions. When you're used to getting a regular paycheck that isn't really depe-
+ ndent on your performance, it can be easy to develop a mindset that you're ju-
+ st an employee of a company.
+  4.4 While it's true that you may be an employee of a particular company at a-
+ ny given time in your career, it's important to not let that particular role
+ define you and your career.
+  4.5 It's better to think of an employer as a customer for your business of 
+ developing software. Viewing the relationship this way moves you from a posit-
+ ion of powerlessness and dependency to one of autonomy and self-direction.
+5 How to think like a business
+  5.1 Let's talk about how to think about yourself as a business and what exac-
+ tly that means.
+  5.2 What makes up a business?  
+   1) first you need to have a product or a service, a business without someth-
+ ing to offer doesn't have a way to make money, because they have nothing to s-
+ ell.
+   2) What do you have to sell? What is your product or service?
+   3) Most software developers are selling the service of developing software.
+  In general, software developers are selling their ability to take an idea an-
+  d make it into a digitized reality. --> The service you provide is to create
+  software.
+6 It's important to at least realize that having a product or service by itse-
+ lf is not enough. You've actually got to be able to let potential customers
+ know about that product or service if you want to make any money. Companies
+ all over the world realize this key truth about business and that's why they
+ spend so much money and effort on marketing.
+7 As a software developer offering your service, you also have to be concerned
+ with marketing. The better you market your offerings, the higher price you'll 
+ be able to charge for your services and the more customers you'll potentially
+ be able to attract.
+8 So here is the advice:
+  8.1 Focus on what service you're providing and how to market that service.
+  8.2 Think about ways you can imporve your offerings.
+  8.3 Think about how you can specialize that service you're providing to serve
+ the needs of a particular type of client or industry.
+  8.4 Focus on being a specialist who provides a very specialized set of servi-
+ ces to a very particular type of client.(Remember, as a software developer lo-
+ oking for a good job, you only really need to land one client).
+  8.5 Think about how best to spread the world about your service and find your
+ customers.
+  
