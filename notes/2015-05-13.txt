@@ -1,0 +1,9 @@
+1 simple and useful is the best
+2 about growth venture's design: 
+  2.1 the design document(web service interface) growth venture sent me is simple and useful.
+  2.2 it contains no introductory words
+  2.2 it's sentences are short and simple
+  2.3 it contains pictures
+  2.4 and I feel their design is good because they're very experienced with their business, so
+        for now, I think a good design cannot happen without a familiarity of the domain knowledge
+        and their own business
