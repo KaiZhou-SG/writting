@@ -1,0 +1,4 @@
+1 The core value of a programmer is his or her business value.
+2 The core value of a programmer in aspect of technique is his or her logic and
+  design of the software.
+3 The technical details is really of little value in the real business world. 
