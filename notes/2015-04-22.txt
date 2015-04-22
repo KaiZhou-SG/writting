@@ -2,3 +2,15 @@
 2 The core value of a programmer in aspect of technique is his or her logic and
   design of the software.
 3 The technical details is really of little value in the real business world. 
+4 Therefore, to increase the value as of a programmer, the first thing to do is
+  to understand the business the company runs, the second thing is to get
+  involved with business logic thinking and designing.
+  Simply speaking it's:
+  a) a sense of business
+  b) logic thinking
+  c) skills of software design
+5 At first, I try to write as much as I can when creating a technical document.
+  After a few times reading others' document and amending mine, I found that
+  the value of a technical document is: simple and useful.
+  A short document is often better than a long one.
+6 
