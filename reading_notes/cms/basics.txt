@@ -1,0 +1,87 @@
+>> From wikipedia: http://en.wikipedia.org/wiki/Content_management_system
+
+1 What is a CMS?
+
+  CMS: content management system, is an application to store and organize files
+, and provide version-controlled access to their data.
+  WCMS: web content management system, is an HTML-based CMS.
+
+2 What functions does a CMS or WCMS provide?
+  1) a central repository containing contents
+  2) a CMA as the front-end for the users to manipulate contents
+  3) a CDA that compiles the information and updates it to the presentation la-
+yer(the Web Pages)
+
+>> From
+>> www.smashingmagazine.com/2009/03/05/10-things-to-consider-when-choosing-the-
+perfect-cms
+
+3 10 aspects to review a CMS application:
+  1) Core functionality:
+    Creating, deleting, editing and organizing pages. These functionalities are
+  assumed as granted. How intuitive are these functionalities are presented?
+  2) The editor:
+    The editor is the interface through which content is added and amended. How
+  is the editor of the CMS is designed? Ensure the editor is designed on the
+  principle that the editor does not give the content providers control over
+  the appearance(separation of the content and the presentation).
+  3) Managing assets:
+    Management of images and files is critical in CMS. Consider a CMS that
+  provides basic image editing tools, such as cropping, resizing and rotating.
+    Also consider how the content management system deals with uploading and
+  ataching PDFs, Word documents and other files. How are they displayed to end
+  users? Can descriptions be attached to the files, and is the search function
+  capable of indexing them?
+  4) Search
+    Search is an important aspect of any website. Approximately half of all
+  users start with search when looking for content. Here are a few things to
+  look for when assessing search functionality:
+    a) Freshness: how often does the search engine index the website? This is
+    especially important when the website changes regularly.
+    b) Thoroughness: does it index the entire content of each page? What about
+    attached files, such as PDFs, Word, Excel and PowerPoint documents?
+    c) Speed
+    d) Scope, can you limit the scope of the search function to a particular
+    section or refine search results once returned?
+    e) Ranking, how does the search engine determine the ranking of results?
+    Can this be customized by either the website owner or user?
+    f) Customization, can you control how results are displayed and customize
+    the design?
+  5) Customization
+    The CMS's presentation should not be dictated by technology. Otherwise it
+  will put unreasonable constraints on the design and seriously impact
+  accessibility.
+    You need a content management system that allows flexibility in the way
+  content is retrieved and presented.
+  6) User interaction
+    If you want to gather user feedback, or host a community on your website,
+  then you require functionality such as chat, forums, comments and ratings.
+  At the minimum, you need to be able to post forms and collect responses. How
+  easy does the CMS make this process? Can your CMS allow you to communicate
+  with your customers?
+  7) Roles and permissions
+    As the number of content providers on your website increases, you'll want
+  more control over who can edit what. You'll need a CMS that supports multiple
+  roles. This can be as simple as having one "Editor" and one "Approver" role,
+  or more complex with customized roles and different levels of permission.
+    Enterprise-level CMS even supports entire workflows in which page updates
+  have to go through a series of checkpoints before going live. These complex
+  scenarios require the ability to rollback pages to previous versions.
+  8) Versioning
+    Being able to revert to a previous version of a page allows you to quickly
+  recover if something is posted by accident.
+    Some content management systems have complex versioning functionality that
+  allows you to rollback to a specific date. However, in most cases, this is
+  overkill. The most common use of versioning is simply reverting to the last
+  saved state.
+  9) Multiple website support
+    Some CMS allows you to run multiple websites.
+  10) Multilingual support
+    We live in a multicultural society in which numerous languages are spoken,
+  being able to accommodate these differences gives you a significant edge over
+  the competition.
+  
+  Conclusion
+  Don't let your requirements becomes a wish list. Keep your requriements to a
+  minimum, but at the same time keep an eye on the future.
+    
