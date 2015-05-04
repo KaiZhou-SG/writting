@@ -1,0 +1,11 @@
+from url:
+http://www.howtogeek.com/163127/how-powershell-differs-from-the-windows-command-prompt/
+
+1 PowerShell exists only since Windows 7.
+2 PowerShell is a Windows system administrating tool.
+3 The Command Prompt is essentially a copy of all commands from a DOS system, therefore, it 
+  cannot access many Windows system administration features, while PowerShell is a new
+  environment designed to manage Windows OS.
+4 While Linux shells pipe streams of characters(text), PowerShell pipes objects between 
+  cmdlets.
+
