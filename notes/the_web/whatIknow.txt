@@ -1,0 +1,51 @@
+1 The Internet vs WWW
+  1) The Internet is a massive network of networks, it's a networking
+infrastructure. Any computer can communicate with any other as long as they
+are both connected to the Internet.
+  2) Information travels over the Internet via various protocols.
+  3) The WWW is an information-sharing model that builds on top of the
+Internet via HTTP protocol.
+  4) The WWW is just one of the way that information can be disseminated over
+the Internet. The Internet is also used for e-mail, which uses SMTP, Usenet
+news groups, instant message and FTP and so on. So the WWW or the Web, is just
+a portion of the Internet.
+  5) The Internet and the WWW are not synonymous, and should not be confused.
+
+2 What is a Web Server
+  1) Web Server can refer either to the entire computer system, an appliance,
+or specifically to the software that accepts and supervises the requests from
+the Web Clients.
+  2) The primary function of a web server is to store, process and deliver web
+pages to clients, in this case, the communication between client and server
+takes place using the Hypertext Transfer Protocol(HTTP). Pages delivered are
+most frequently HTML documents. 
+  3) The Web Server can also be found embedded in devices such as printers,
+routers, webcams and serving only a local network.
+
+3 When the Web Server is used to store, process and deliver web pages, it is
+able to map the path component of a Uniform Resource Locator(URL) into:
+  > A local file system resource(for static requests)
+  > An internal or external program name(for dynamic requests)
+  examples, when a client request this URL:
+    http://www.example.com/path/file.html 
+  the client's agent(usually a web browser) wll translate it into a connection
+to the server called www.example.com plus a verb called GET:
+  GET /path/file.html HTTP/1.1
+  HOST: www.example.com
+  the server called www.example.com will then look for /path/file.html under
+its web root folder.
+
+4 Kernel-mode and user-mode web servers
+  A web server can be either incororated into the OS kernel, or in user
+space(like other regular applications).
+  A in-kernel web server(like Microsoft IIS or TUX) will usually work faster,
+because, as part of the system, it can directly use all the hardware resource
+it needs, such as non-paged memory, CPU time-slices, network adapters, or
+buffers.
+  A Web server runs in user-mode has to ask the system for permission to use
+more memory or more CPU resources. Not only do these requests to kerne take
+time, but they are not always satisfied because the system reserves resources
+for its own usage and has the responsibility to share hardware resources with
+all the other running applications.
+
+5 
