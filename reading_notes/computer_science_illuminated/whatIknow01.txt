@@ -1,0 +1,13 @@
+  The history of a computer system
+
+  My memory is not clear, what I know is, the computer only has a short 
+history. The computer showed its power during World War II, and it was
+used by the British to decode the German army codes.
+  Before that, the computer was already been investigated by the westerners.
+And on the early days, Unix is a popular OS, but it is proprietary software.
+Stallman wanted all people are able to share their software, created GNU.
+GNU is a collection of opensource software, but GNU has no kernel.
+  Linus created a draft of kernel, which was compatible with GNU applications.
+And the community improved the kernel, and plant the GNU applications upon it.
+The Linux operating system was born.
+  
