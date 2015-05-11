@@ -1,0 +1,28 @@
+The *layered model* of the *knowledge body* of Computer Science
+
+1 Menu of the book:
+
+  Laying the Groundwork: --> The Big Picture
+
+  The Information Layer: --> Binary Values and Number Systems
+                         --> Data Representation
+
+  The Hardware Layer:    --> Gates and Circuits
+                         --> Computing Components
+
+  The Programming Layer: --> Problem Solving and Program Design
+                         --> Low-Level Programming Languages
+                         --> High-Level Programming Languages
+                         --> Abstract Data Types and Algorithms
+ 
+  The Operating System Layer: --> Operating Systems
+                              --> File Systems and Directories
+
+  The Applications Layer: --> Information Systems
+                          --> Artifical Intelligence
+                          --> Simulation and Other Applications
+
+  The Communications Layer: --> Networks
+                            --> The World Wide Web
+
+  In Conclusion: --> Limitations of Computing
