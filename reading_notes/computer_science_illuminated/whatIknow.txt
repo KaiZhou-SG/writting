@@ -28,5 +28,7 @@ and the software system
 engineer has a more or less the same knowledge base, but working for different
 purposes. My focus is still on software engineering area, while knowing what a
 computer scientist is doing is also interesting.
+
+  
  
 
