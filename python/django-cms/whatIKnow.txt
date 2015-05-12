@@ -1,0 +1,38 @@
+  What have I already known about Content Manage System?
+
+  I'm going to spend the next two years in earth9.com pte ltd, to work on its
+CMS applications. So I'm here to learn something about CMS. Before dive into
+the ocean of documents, tutorials, I want to summarize what I've already konw.
+I'm not a learning machine, I'm not waiting for the ocean of external resources
+to fill in my brain. I'm aware what I'm looking for, I'm aware what I'm doing.
+  
+  The CMS, as I know:
+
+ >>  Content: it's data in various media formats, may it be plain-text files,
+images, excel spreadsheets, word documents, database, videos, programs, web
+pages, schedule plans, and so on...
+
+ >> Manage: manage not only means retrieve the above content, but also:
+  (1) version control the contents(so that changes can be rollback)
+  (2) permission control(so that different roles have different access right)
+  (3) content editor(so that common users can edit the content without trainnin)
+  (4) display(so that the same content can be displayed in different formats
+as per the user's preference) 
+
+ >> How to implement a CMS?
+ CMS is not a new concept, I'm talking about the WCMS(Web Content Manage System)
+now. It needs a web server, and a few front-end applicaitons(such as the
+content editor, content conventor and displayer).
+  There are lots of CMS frameworks out there. earth9.com pte ltd seemed to
+be using ASP.NET. But I find the documentation is so poor that of ASP.NET, as
+well as it's so hard to find a good host to host an ASP.NET web application,
+which means it's hard to try out, to investigate.
+  Instead, I choose django-cms, a free open-source project to learn CMS, and
+migrate the concept to ASP.NET when I'm working, that's my plan.
+  So basicly I'll use django-cms framework to implement my CMS.
+
+  >> What's the status now?
+  I've already installed djangocms-installer on my Ubuntu system, and created
+a CMS demo project as well. Which means the environment is ready. Let me get
+started now.
+  
