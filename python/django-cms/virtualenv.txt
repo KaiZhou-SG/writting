@@ -1,0 +1,19 @@
+What I've known about virtualenv so far:
+
+1 It's a program to help the programmer to manage a virtual developing or
+deploying environment.
+
+2 Why virtualenv?
+  Because we may have different versions of references deployed on our 
+machine, and different applications may depend on different versions of those
+references. If we update the reference by mistake, we may end up making the
+applications depending on it crush. Therefore, we make a virtual environment
+for each of the application to debug, to run.
+
+3 How does virtualenv work?
+  It's basicly a command-line tool, I can refer to the manual page. What I know
+so far, is that it will create some folders for me, and place the required
+version of references to the folders accordingly. And the application running
+under the virtual environment know where to look for the wanted references.
+
+4 The detailed information goes here:(I'll make notes as I work with it)
