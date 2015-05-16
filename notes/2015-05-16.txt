@@ -1,0 +1,22 @@
+  I made a toDo list before starting, but was still distracted by some other
+topics while executing my toDo list.
+  Of course my list wasn't completed again, because I spent too much time on
+the issues not in the list.
+  This time, it was the issue of installing CodeBlocks.
+  I was thinking about programming languages, while I encontered with the 
+opinion that C is an important language to learn. Therefore, I tried to install
+CodeBlocks on my Ubuntu.
+  But I did not install it from Software Contre, instead I downloaded from
+the official websiet, it was a tar compressed file.
+  I decompressed it, and got around 10 .deb files. I didn't see a .make file or
+a .configuration file. So I tried to install those .deb files manually.
+  Unfortunately, during installation a lot of dependency problems occurred. I
+couldn't finish the installation at all.
+  So I gave up, went to Software Centre to install it. But even worse this
+time. Because the version of CodeBlocks in SoftWare Centre is 13.12.3 and the
+one I downloaded is 13.12.1, and I installed 13.12.1 incompletely. And while
+I try to install 13.12.3 via Software Centre, it complainnt that I have broken
+packages, and tried to fix it for me, and could not success.
+  Now I have to manually resolve the conflict. Still I need to observe every
+little clue to do it. A lot of time will be spent on topics irrelevant to the
+toDo list.  
