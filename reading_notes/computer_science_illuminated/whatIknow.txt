@@ -1,0 +1,34 @@
+What have I already known about computer science?
+
+  When taking computer science as a discipline in school, we will usually learn 
+these topics:
+  1) The history of the hardware of a computer system 
+  2) The history of programming
+  3) The history of computer network
+  4) The history of computer artificial intelligence.
+  While in the real-world, a computer scientist would focus on a specific area,
+do some exploration and experimental work. He or she should have a very solid
+knowledge of 'talking' to computers efficiently, and is able to make use of 
+certain brancheis of mathematics as a tool to analysis the output of the 
+computer system.
+  As a computer scientist, he or she may be familar with how to investigate a
+certain problem in a certain area, with the help of a computer system.
+  Howerver, as a software engineer, what I do is basicly:
+  1) know how one set of computer system works, including the hardware system
+and the software system
+  2)
+   2.1) analyze the requirement from the customer
+   2.2) convert it into technical documents, that's the specification
+   2.3) make a design 
+   2.4) implement the design
+   2.5) debug and test the software
+   2.6) deploy the software system and maintain it 
+
+  From the above analysis, I see that a computer scientist and a software
+engineer has a more or less the same knowledge base, but working for different
+purposes. My focus is still on software engineering area, while knowing what a
+computer scientist is doing is also interesting.
+
+  
+ 
+

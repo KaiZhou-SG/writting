@@ -1,0 +1,28 @@
+1 It's really a good idea that came up with Python community, that creates a
+virtual environment for each Python application to run, and debug and deploy.
+2 The basic idea of a virtual environment is that:
+  (1) We may have installed various versions of Python on our System.
+  (2) Different Python applications may rely on different Python versions.
+  (3) When we update our System, it is easliy to update a Python version which
+we don't intend to, and that would break all Python applications rely on that
+Python version.
+  (4) It's also stupid to specify a Python version each time when we test, or 
+run or deploy a Python application.
+  (5) So let's create a virtual environment that for each Python Application
+when we want to debug it, test it, run it. And after we are done, we deploy it
+to the real environment.
+  (6) To implement that idea, the virtual environment will hold all required
+references for that Python application to run, plus, that Python application
+is aware of the virtual environment, and get references from it instead of the
+real envrionment. Which means, the virtual environment has a switch, it can be
+activated and deactivated. Once activated, the Python application will look for
+references to the virtual environment.
+3 The virtualenv program
+  The virtualenv program is created just for this puropose. The basic usage is:
+  $ virtualenv env # this created a directory called env, and it will be served
+as the virtual environment
+  $ source env/bin/activate # this will activate the virtual environment
+  # after activation, all operations are done within the virtual environment.
+It won't affect the real environmet.
+  # we usually will install required references into the env directory,
+  # and the Python application will look for the references under it.

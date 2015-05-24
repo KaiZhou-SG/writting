@@ -1,0 +1,68 @@
+updates 2015-05-13
+  On reviewing this installation log, I feel it's crucial to pocess the ability
+to manage the packages in the system.
+  For now, I try to make use of the package manage service Ubuntu provides, 
+such as in Synaptic, I look for corresponding packages which are certified with
+a Ubuntu icon. This trick usually works, and it's safe so far.
+  In future, I need to learn further on how to manage packages, plus, how to 
+manage access rights to those packages.
+
+>> Archieve, 2015-05-12
+
+1 under virtualenv folder env, installed django-cms, successfully, message:
+Successfully installed Django-1.7.8 django-classy-tags-0.6.1 django-cms-3.1.0 django-sekizai-0.8.1 django-treebeard-3.0 djangocms-admin-style-0.2.5 html5lib-0.99999 six-1.9.0
+
+2 reinstall virtual env : success message:
+
+wnloading/unpacking virtualenv
+  Downloading virtualenv-12.1.1-py2.py3-none-any.whl (1.6MB): 1.6MB downloaded
+Installing collected packages: virtualenv
+Successfully installed virtualenv
+
+3 I always got errors while executing: djangocms -p ./mypages mysite.
+  (1) I observed that the program looks for django-admin in /user/bin, but 
+cannot find it. So I searched on my local disk where my django-admin is.
+And I found it's located at /user/local/bin.
+    So I guess it was because I installed virtualenv via sudo. So I uninstalled
+virtualenv, and reinstall it without sudo.
+    Now the pgraom can find django-admin, but pops up another error. The Pillow
+libirary had some unknown errors. I tried, but could not find a clue on what it
+was.
+  Finally I went to django-cms official website, followed the simple 
+instructions there, and the same error occurred. Since the commands of the 
+official site also failed, I think it was some problem on my own pc.
+  I did a google search on 'install django-cms failed', and the results lead
+me to a 'Libraries installation issues' page. There I found that the Pillow 
+library is the common issue. So I tired to install Pillow manually which was
+originally handled by pip install djangocms-installer command.
+  Now the error came out again, yes, it's the problem with installing Pillow
+library, and the error description is clear now: I don't have Python.h file.
+Then I googled on 'Python.h missing', and I found a link which provides a 
+good solution on how to install python development libraries. 
+  Have done that, my libriaries(references) in the virtual environment is
+built successfully.
+  Now here comes another problem, the complain says that the Pillow library
+is not compiled with PNG support.
+  OK, I'm going to find a way to compile Pillow with PNG support.
+
+>> Update goes here
+  As said before, I still got error with Pillow library, the djangocms-installer
+complaint that the Pillow library is not compiled with PNG and JPEG support.
+  I looked at the 'Libraries installation issues' page carefully, and concluded
+that I may ask for help from Synaptic, it is hard to compile Pillow with PNG
+and JPEG support by myself.
+  I then observed carefully any clue provided by the 'Libraries installation
+issue' page, and got the idea that I my keyword would by Pillow, and searched
+Pillow in Synaptic. There are only 4 results, and are marked with a Ubuntu
+icon, which means they are save to install. I installed all of them(after
+viewing the details of each of them).
+  And I reinstalled djangocms-installer, recompiled Pillow, and I got another
+error, this time, it's database related: MySql-Python library is missing.
+  I've already prepared for that, so I go to Synaptic to search MySql-Python,
+and installed all related pacakges. I uninstalled djangocms, removed Pillow,
+and uninstalled virtualenv. Restart my Ubuntu.
+  After restart, I installed virtualenv first, then djangocms-installer, and
+run djangocms -p ./mypages mypages
+  All successed!! And the django-cms welcome page is so beautiful, I love it!!
+
+

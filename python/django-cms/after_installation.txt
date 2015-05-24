@@ -1,0 +1,7 @@
+  Now that I've finished installing django-cms framework, and created a new
+cms called Mypages, what's next?
+  I'm going to do these:
+
+  (1) Summarize what I've learned about CMS, and document it.
+  (2) Learn CMS via django-cms project.
+  (3) Try publishing my django-cms project to the WWW.
