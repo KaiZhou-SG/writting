@@ -1,0 +1,51 @@
+1 What is SQL Server Reporting Service(SSRS)?
+  1.1 SSRS is a server-based reporting platform providing reporting
+functionality.
+  1.2 SSRS works within Visual Studio, and is integrated with SQL Server tools
+and components.
+  1.3 SSRS works with various relational, multidimensional, or XML-based
+data sources.
+  1.4 SSRS produces various formats of reports, such Excel or a Web-based
+application(such as Sharepoint).
+  1.5 With SSRS you can also create data alerts on reports and send Emails
+when report data changes.
+  1.6 Besides SSRS, SQL Server Services Suite also includes other services:
+    >> SQL Server Analysis Services(SSAS)
+      which enables users to construct special databases for fast analysis of
+very large amounts of data.
+    >> SQL Server Integration Services(SSIS)
+      which enables users to integrate data from many sources outside SQL
+Server.
+    So that's: SSRS, SSAS, SSIS.
+
+2 Features of SSRS
+  2.1 SSRS provides a unique interface into Microsoft Visual Studio so that
+developers as well as SQL administrators can connect to SQL databases and use
+SSRS tools to format SQL reports.
+  2.2 SSRS also provides a 'Report Builder' tool, which uses a RDL(Report
+Definition Language)component that uses graphic icons in a GUI. In this way,
+instead of writing code, the user can drag-and-drop graphic icons into an SSRS
+report for most aspects of the SSRS report.
+  2.3 Users can interact with the Report Server web service directly, or
+instead use Report Manager, a web-based application that interfaces with the
+Report Server web service. With Report Manager, users can view, subscribe to,
+and manage reports as well as manage and maintain data sources and security
+settings, it also deliver SQL Reports by e-mail, or place them on a file
+share.
+  2.4 Security is role-based and can be assigned on an individual item, such
+as a report or data source, a folder of items, or site wide. Security roles
+and rights are inherited and can be overloaded.
+  2.5 One can view RDL reports by using the standalone Report Server that
+comes with Microsoft SQL Server, or by using the ASP.NET ReportViewer web
+control, or by using ReportViewer Windows Forms control. The latter methods
+allow reports to be embedded directly into web pages or .NET Windows
+applications.
+  2.6 The ReportViewer control will process reports by:
+    (a) server processing, where the report is rendered by the Report Server; or 
+    (b) local processing, where the control renders the RDL file itself.
+  2.7 SSRS also support ad-hoc reports: the designer develops a report schema
+and deploys it on the reporting server, where the user can choose relevant
+fields/data and generate reports. Users can then download the reports locally.
+  2.8 SQL Server 2012 SP1 expands support for viewing reports to mobile
+platforms, including Microsoft Surface, Apple iOS 6 and Windows Phone 8.
+Publishing reports in Windows Azure is also supported.
