@@ -1,0 +1,8 @@
+  Debugable and Testable is critical in the process of developing software
+system.
+  It's very important to make sure the developing environment is testable, the
+codes I write is testable.
+  This is to make sure what's happing with my codes and my software system.
+  So when I'm developing a software system, I need to consider how to make
+everything testable and debuggable. This is the critical.
+  

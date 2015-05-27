@@ -1,0 +1,101 @@
+1 What is SQL Language?
+  1.1 SQL Language: Structured Query Language, it's a NON-PROCEDURAL language.
+  1.2 It's used to:
+    1) define
+    2) select
+    3) modify
+    data.
+
+2 The features of SQL
+  2.1 SQL has several components, of which the most important are: DDL & DML:
+    DDL: data description language
+    DML: data manipulation language
+  2.2 
+
+3 Coursors:
+  3.0 What is a cursor
+  3.1 How to use a cursor
+    >> Declare cursor
+    >> Open cursor
+    >> Process the data one row at a time read(Fetch) from the cursor.
+    >> Close cursor
+    >> Deallocate cursor
+
+  3.0 What is a cursor(reference: en.wikipedia.org/wiki/Cursor_(database))
+  In computer science, a database cursor is a control structure that
+enables traversal over the records in a database.
+  Cursors facilitate subsequent processing in conjunction with the traversal,
+such as retrieval, addition and removal of database records.
+  The database cursor characteristic of traversal makes cursors akin to the
+programming language concept of iterator.
+  Cursors are used by database programmers to process individual rows returned
+by database system queries. Cursors enable manipulation of whole result sets
+at once. In this scenario, a cursor enables the rows in a result set to be
+processed sequentially.
+  In SQL procedures, a cursor makes it possible to define a result set and
+perform complex logic on a row by row basis. By using the same mechanics, an
+SQL procedure can also define a result set and return it directly to the
+caller of the SQL procedure or to a client application.
+  A cursor can be viewed as a pointer to one row in a set of rows. The cursor
+can only reference one row at a time, but can move to other rows of the result
+set as needed.
+ 
+4 Detailed explanation of the steps on using the cursor.
+  >> Declare a cursor:
+  DECLARE cursor_name CURSOR IS SELECT ... FROM ...
+  >> Before the code can access the data, it must open the cursor with OPEN
+statement. Once opened, the cursor is positioned BEFORE the first row in the
+result set.
+  OPEN cursor_name
+  >> Program the position on a specific row in the result set with the FETCH
+statement. A FETCH operation transfers the data of the row into the
+application.
+  FETCH cursor_name INTO ...
+  >> The final step is to close the cursor using CLOSE statement.
+  CLOSE cursor_name
+  >> After closing a cursor, a program can open it again, which implies that
+the DBMS re-evaluates the same query or a different query and builds a new
+result set.
+
+5 Scrollable cursors
+  Programmers may declare cursors as scrollable or not scrollable. The
+scrollability indicates the direction in which a cursor can move.
+  With a non-scrollable(or forward-only)cursor, you can FETCH each row at most
+once, and the cursor automatically moves to the next row. After you fetch the
+last row, if you fetch again, you will put the cursor AFTER the last row and
+get the following code: SQLSTATE02000(SQLCODE +100).
+  While a program may position a scrollable cursor anywhere in the result set
+using the FETCH SQL statement. The target position of a scrollable cursor can
+be specified relatively(from the current cursor position)or absolutely(from
+the beginning of the result set). e.g.:
+  FETCH [NEXT | PRIOR | FIRST | LAST] FROM cursor_name
+  FETCH ABSOLUTE n FROM cursor_name
+  FETCH RELATIVE n FROM cursor_name
+
+  >> Scorable cursors can potentially access the same row in the result set
+multiple times. Thus, data modifications(insert, update, delete operations)
+from other transactions could have an impact on the result set. A cursor can
+be SENSITIVE or INSENSITIVE to such data modifications. 
+  A sensitive cursor picks up data modifications impacting the result set of
+the cursor, and an insensitive cursor does not. Additionally, a cursor may be
+INSENTIVE, in which case the DBMS tries to apply sensitivity as much as
+possible.
+
+6 WITH HOLD
+  Cursors are usually closed automatically at the end of a transaction. i.e.
+when a COMMIT or ROLLBACK(or an implicit termination of the
+transaction)occurs. That behavior can be changed if the cursor is declared
+using the WITH HOLD clause.(The default is WITHOUT HOLD).A holdable cursor is
+kept open over COMMIT and closed upon ROLLBACK.
+
+7 Positioned update / delete statements
+  Cursors can not only be used to fetch data from the DBMS into an application
+but also to identify a row in a table to be updated or deleted:
+  >> UPDATE
+  UPDATE table_name
+  SET ...
+  WHERE CURRENT OF cursor_name
+  >> DELETE
+  DELETE 
+  FROM table_name
+  WHERE CURENT OF cursor_name
