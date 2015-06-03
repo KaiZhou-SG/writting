@@ -1,0 +1,17 @@
+Dataflow of an ASP.NET application:
+
+ The flow is:
+  >> User trigger UI event >> UI event is handled >> UI is changed
+
+ The detailed flow is:
+  > User trigger UI control event
+  > Control event is handled by a JavaScript function
+  > With the help of AjaxPro framework, JavaScript function can invoke C#
+   backend codes
+  > C# backend codes returns data(e.g. a string in html format) to the
+   invoking JavaScript function.
+  > JavaScript function change the UI by using the data returned by C# back
+   end codes(such as insert a piece of html string to current web page)
+
+
+  

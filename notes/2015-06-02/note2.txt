@@ -1,0 +1,4 @@
+jQuery notes:
+
+1 $
+  1.1 $ 
